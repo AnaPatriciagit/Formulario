@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <form action="" method="post" onsubmit="funcEnviar()">
+    <h1> Cadastro de Devs</h1>
+    <p>Preencha o formulário com suas informações pessoais correspondentes. Sem nenhum dado em branco!!! </p>
+    <div>
+    <fieldset>
+        <legend>Login
+        </legend>
+        <input type="text" placeholder= "Nome" name="Nome"class="inputUser" required>
+        <br>
+        <input type="email"  placeholder= "Email"  name="Email" class="inputUser" required>
+        <br>
+        <input type="tel"  placeholder= "Telefone"  name="Telefone" class="inputUser" required max="9">
+        <br>
+        <input type="text"  placeholder= "Endereco"  name="Endereco" class="inputUser" required >
+        <br>
+        <input type="button" onclick="func()" class="inputButton"  name="inputButton" value="Enviar dados">
+        <br>
+    </fieldset>
+    <br>
+    <table id="table">
+        <tr>
+            <td>Nome</td>
+            <td>Email</td>
+            <td>Telefone</td>
+            <td>Endereço</td>
+        </tr>
+        
+    </table>
+</div>
+</form>
+<script src="index.js"></script>
+</body>
+</html>
